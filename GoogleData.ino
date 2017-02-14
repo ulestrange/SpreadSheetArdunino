@@ -65,19 +65,19 @@
 // use #define statements to specify these values in a .h file.
 
 // the clientID found in Google's Developer Console under API Manager > Credentials
-const String CLIENT_ID = "970944519729-b223fr3qc15bpsst7n81t715tm5vetvn.apps.googleusercontent.com";
+const String CLIENT_ID = "1097200809465-p26qu9m0l0fbnd9nduj95mqetiqcjlt2.apps.googleusercontent.com";
 
 // the clientSecret found in Google's Developer Console under API Manager > Credentials
-const String CLIENT_SECRET = "4qyO0imbsCqWuC_vFXhFM9JL";
+const String CLIENT_SECRET = "gfzhG-hGpPqtb_oFA89N7PN4";
 
 // returned after running FinalizeOAuth
-const String REFRESH_TOKEN = "1/A6gtnh_zL1uVRleq4RIaO8mXKnLRoJIZVLQ4v64AEZwWB18lmxo8syPBWUgs3BUN";
+const String REFRESH_TOKEN = "1/ZN5iu-3VkHM3ZkgfJhUky-IHAlpq3fHrcohUFojLE5g";
 
 // The ID of the spreadsheet you want to send data to
 // which can be found in the URL when viewing your spreadsheet at Google. For example, 
 // the ID in the URL below is: "1tvFW2n-xFFJCE1q5j0HTetOsDhhgw7_998_K4sFtk"
 // Sample URL: https://docs.google.com/spreadsheets/d/1tvFW2n-xFFJCE1q5j0HTetOsDhhgw7_998_K4sFtk/edit
-const String SPREADSHEET_ID = "1FBVZ-7hhrZmHPUicaI1yaBJe5hkyNZATUaFoa021uk8";
+const String SPREADSHEET_ID = "1UqzkubbbiAZ2Y5ZKPN-5tlhSX8URtlEe35Rz8YBVxIw";
 
 const unsigned long RUN_INTERVAL_MILLIS = 60000; // how often to run the Choreo (in milliseconds)
 
@@ -150,7 +150,7 @@ void loop()
     AppendValuesChoreo.addInput("SpreadsheetID", SPREADSHEET_ID);
 
     // convert the time and sensor values to a comma separated string
-    String myName="MaryL";
+    String myName="UnaLE";
     String rowData = "[[\"" + String(now) + "\", \"" + String(sensorValue) + "\", \"" + String(myName) + "\"]]";
 
     // add the RowData input item
